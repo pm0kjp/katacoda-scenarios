@@ -1,7 +1,7 @@
 {
     "noindex": true,
     "title": "Using Linux CLI",
-    "description": "This article will get you started using a linux command line, using bash, with ease",
+    "description": "Use the linux command line, using bash, with ease",
     "details": {
         "steps": [
             {
@@ -19,11 +19,10 @@
         ]
     },
     "environment": {
-        "hideintro": true,
-        "hidefinish": true,
-        "uilayout": "terminal"
+      "uilayout": "terminal",
+      "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
     },
     "backend": {
-        "imageid": "node"
+      "imageid": "bash"
     }
 }

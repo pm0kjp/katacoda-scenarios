@@ -13,4 +13,5 @@ Bored and want to get out of the list before you get to the bottom? Type `q` to 
 # Helper Functionality
 
 `ls`{{execute}}
+
 `ls | more` {{execute}}
