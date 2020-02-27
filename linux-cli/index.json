@@ -7,15 +7,11 @@
             {
                 "title": "Where Am I?",
                 "text": "step1.md"
-            }
-        ],
-        [
+            },
             {
                 "title": "What Files Are Here?",
                 "text": "step2.md"
-            }
-        ],
-        [
+            },
             {
                 "title": "Dealing With Long Output",
                 "text": "step3.md"
