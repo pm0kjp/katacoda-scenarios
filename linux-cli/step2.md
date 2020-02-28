@@ -1,17 +1,17 @@
-# Don't Be Scared!
+# Moving Around
 
-You can **list** files in your current directory by typing `ls`.
+You can "change directory" by using the `cd` command.  
 
-Go ahead and try it. If you're in a directory with lots of files, they'll stream by really fast and you'll only see the end of the list in your screen.
+You can go "up" a level to the directory that contains your present working directory by using the `..` notation, like this: `cd ..`.  Note there's a space between `cd` and `..`.
 
-When you see a lot of output, you can "scroll" through the output (whether it's output from `ls` or something else) by "piping" the output into the more command, for example, by using `ls | more`.
+You can go up two levels by using a slash and two more dots: `cd ../..`.  You get the idea!
 
-If you have more than a screen's worth of output that you send to `more` (for example, lots of files in a directory), you'll see a colon at the bottom that invites you to hit enter to see more. Keep hitting enter to scroll down through the entire list.
+You can go "down" into a directory that is within your present working directory by just typing `cd name-of-directory`.
 
-Bored and want to get out of the list before you get to the bottom? Type `q` to quit. In fact, any time you see a colon instead of a prompt, you can usually type `q` to finish up and get back to a regular prompt.
+Try it here, with `cd log_files`.
 
-# Helper Functionality
+# Helper Functionality!
 
-`ls`{{execute}}
+Click below if you don't feel like typing (although typing is really good for building muscle memory).
 
-`ls | more`{{execute}}
+`cd log_files`{{execute}}
