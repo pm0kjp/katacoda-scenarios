@@ -9,7 +9,6 @@
                 "courseData":"create.sh",
                 "text": "step1.md"
             }
-
         ],
         "intro": {
             "code": "env-init.sh"
