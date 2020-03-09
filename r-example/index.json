@@ -1,0 +1,35 @@
+{
+    "noindex": true,
+    "title": "RShiny Example",
+    "description": "Joy's First Attempt to do RShiny",
+    "details": {
+        "steps": [
+            {
+                "title": "Shiny, Hopefully.",
+                "courseData":"create.sh",
+                "text": "step1.md"
+            }
+
+        ],
+        "intro": {
+            "code": "env-init.sh"
+        },
+        "assets": {
+            "host01": [
+                {"file": "*", "target": "/root"},
+                {"file": "token.sh", "target": "/usr/local/bin", "chmod": "+x"}
+            ]
+        }
+    },
+    "environment": {
+        "showdashboard": true,
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal",
+        "dashboards": [
+          {"name": "Shiny Demo", "port": 31111},
+        ]
+    },
+    "backend": {
+      "imageid": "kubernetes-cluster-running"
+    }
+}
