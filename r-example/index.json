@@ -25,7 +25,7 @@
         "uilayout": "terminal",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal",
         "dashboards": [
-          {"name": "Shiny Demo", "port": 31111},
+          {"name": "Shiny Demo", "port": 31111}
         ]
     },
     "backend": {
