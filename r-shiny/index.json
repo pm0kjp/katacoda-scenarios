@@ -1,0 +1,25 @@
+{
+    "noindex": true,
+    "title": "Using Linux CLI",
+    "description": "Use the linux command line, using bash, with ease",
+    "details": {
+        "steps": [
+            {
+                "title": "Where Am I?",
+                "courseData":"create.sh",
+                "text": "step1.md"
+            }
+        ]
+    },
+    "environment": {
+        "showdashboard": true,
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal",
+        "dashboards": [
+          {"name": "Shiny Demo", "port": 3838}
+        ]
+    },
+    "backend": {
+      "imageid": "bash"
+    }
+}
