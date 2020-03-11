@@ -1,13 +1,10 @@
+## RShiny / learnr demo
+
+This is a demo, it's not perfect.  In the real deployment, we wouldn't run a k8s cluster within Katacoda, we'd just run the RShiny/learnr image.  But in the free version we can't (I think?) get a custom container -- we can only pick from a menu.
+
+So realize this isn't exactly the way learners would interact with Katacoda -- things would be faster and more seamless.
+
 For this scenario, Katacoda has just started a fresh Kubernetes cluster for you. Verify it's ready for your use.
-
-`kubectl version --short && \
-kubectl get componentstatus && \
-kubectl get nodes && \
-kubectl cluster-info`{{execute}}
-
-The [Helm](https://helm.sh/) package manager used for installing applications on Kubernetes is also available.
-
-`helm version --short`{{execute}}
 
 ## Kubernetes Dashboard ##
 
