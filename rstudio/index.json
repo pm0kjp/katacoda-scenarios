@@ -1,0 +1,31 @@
+{ "noindex": true,
+  "title": "RStudio",
+  "description": "R25 Environment",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "courseData": "env-init.sh"
+    },
+    "steps": [
+      {
+        "title": "Step 1: Get Started",
+        "courseData":"create.sh",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+      "showdashboard": true,
+      "uilayout": "terminal",
+      "uimessage1": "\u001b[32mYour Interactive Bash Terminal",
+      "dashboards": [
+        {"name": "RStudio Demo", "port": 8787}
+      ]
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running"
+  }
+}
