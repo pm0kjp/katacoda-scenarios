@@ -14,21 +14,15 @@
     ],
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-        "host01": [
-            {"file": "*", "target": "/root"}
-        ]
     }
   },
   "environment": {
       "showdashboard": true,
-      "uilayout": "terminal",
-      "uimessage1": "\u001b[32mYour Interactive Bash Terminal",
+      "uilayout": "terminal-iframe",
       "dashboards": [
         {"name": "RStudio Demo", "port": 8787}
       ]
-  },
+  },  
   "backend": {
     "imageid": "ubuntu:2004"
   }
