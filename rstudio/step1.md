@@ -1,7 +1,7 @@
 # RStudio Attempt \#1
 
 Click in the "RStudio Demo" tab to the right...
-**it may take a few minutes to load**.  You might see what looks like an error screen, such as the one below.  Don't panic!
+**it may take a few minutes to load**.  You might see what looks like an error screen, such as the one below.  Don't panic!  And don't hit "Continue" until you're ready to end :)
 
 ![Don't panic, this is expected behavior.](load_screen.png)
 
