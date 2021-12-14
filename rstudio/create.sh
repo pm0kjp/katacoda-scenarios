@@ -1,7 +1,5 @@
 #!/bin/bash
-docker build -t r101 .
-
-docker run --rm \
+docker run -d --rm \
   -p 8787:8787 \
-  -e DISABLE_AUTH=true \
-  r101
+  -e DISABLE_AUTH=true
+  rocker/rstudio
