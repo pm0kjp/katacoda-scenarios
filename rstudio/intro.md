@@ -1,7 +1,10 @@
-# RStudio Attempt \#1
+# RStudio For Data Analysis
 
-I **think** there will be an RStudio demo at
+This course gives users experience in these several things ....
 
-https://[[HOST_SUBDOMAIN]]-8787-[[KATACODA_HOST]].environments.katacoda.com/
-
-(but you might have to wait...)
+* thing 1
+* thing 2
+* 1 fish
+* 2 fish
+* red fish
+* blue fish
