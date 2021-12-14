@@ -10,14 +10,6 @@
         "title": "Step 1: What's Happening?",
         "courseData":"create.sh",
         "text": "step1.md"
-      },
-      {
-        "title": "Step 2: Katacoda",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3: RStudio",
-        "text": "step3.md"
       }
     ],
     "finish": {

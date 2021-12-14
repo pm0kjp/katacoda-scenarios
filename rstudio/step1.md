@@ -1,8 +1,14 @@
-# RStudio In Katacoda
+# RStudio in Katacoda
 
-What's happening behind the scenes here?  A few things!
+Click in the "RStudio Demo" tab to the right...
+**it may take a few minutes to load**.  
 
-* We're getting the latest version of the rocker/rstudio Docker image
-* We're adding to that image a directory of coursework (exercises and solutions for R for Clinical Data, in this case)
-* We build the this combined image of the rocker/rstudio base plus our extra files and tag it "r101"
-* We run the r101 image on port 8787 and run it in a special way, without any authentication!  SWEET!
+***And don't hit "Continue" until you're ready to end.***
+
+You might see what looks like an error screen, such as the one below.  Don't panic!  
+
+![Don't panic, this is expected behavior](./assets/load_screen.png)
+
+In a *real* scenario we'd have a couple of filler slides to get us past the startup delay, and each step would be incremental, slowly walking learners through some actions.  Then we'd have a final slide on which the "Continue" would take the learner to the finish screen.
+
+Please be patient and hold off on reloading until you've given it 5 minutes.
